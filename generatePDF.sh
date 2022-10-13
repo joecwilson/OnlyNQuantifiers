@@ -1,5 +1,5 @@
 #!/bin/bash
 
 javac Solution.java
-java Solution > outputNew.tex
-pdflatex outputNew.tex
+java Solution > output.tex
+pdflatex output.tex > .log.txt
